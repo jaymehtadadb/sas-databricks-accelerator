@@ -1,0 +1,42 @@
+-- Databricks notebook source
+-- MAGIC %md
+-- MAGIC
+-- MAGIC <div style="text-align: center; line-height: 0; padding-top: 9px;">
+-- MAGIC   <img src="https://databricks.com/wp-content/uploads/2018/03/db-academy-rgb-1200px.png" alt="Databricks Learning">
+-- MAGIC </div>
+-- MAGIC
+
+-- COMMAND ----------
+
+-- MAGIC %md
+-- MAGIC ## Converting SAS Code to Databricks
+-- MAGIC Welcome to this module, where you'll learn the fundamentals of Databricks while converting SAS code to Databricks. As a SAS user, you're likely familiar with the power and flexibility of SAS programming. However, with the increasing adoption of cloud-based big data analytics, it's essential to learn how to work with Databricks, a fast, scalable, and collaborative analytics platform.
+-- MAGIC In this module, we'll guide you through the process of converting SAS code to Databricks, using real-world examples and hands-on exercises. You'll learn how to: 
+-- MAGIC
+-- MAGIC #### Lessons
+-- MAGIC | Type | Lesson |
+-- MAGIC | --- | --- |
+-- MAGIC | Demo | [01 - Defining and Using Variables]($./01 - Defining and Using Variables) |
+-- MAGIC | Demo | [02 - Date Time Variables]($./02 - Date Time Variables) |
+-- MAGIC | Demo | [03 - Macros]($./03 - Macros) |
+-- MAGIC | Demo | [04 - Transpose and Merging Rows]($./04 - Transpose and Merging Rows) |
+-- MAGIC | Demo | [05 - Exploring Loops]($./05 - Exploring Loops) |
+-- MAGIC | Demo | [06 - Read spark-sas7bdat Files]($./06 - Read spark-sas7bdat Files) |
+-- MAGIC | Demo | [07 - Convert SAS Script to Databricks Sample1]($./07 - Convert SAS Script to Databricks Sample1) |
+-- MAGIC | Demo | [08 - Convert SAS Script to Databricks Sample2]($./08 - Convert SAS Script to Databricks Sample2) |
+-- MAGIC
+-- MAGIC #### Scope of the Module
+-- MAGIC * This module focuses on the concepts that are essential to convert your SAS code to Databricks and assumes that the required data sets are already migrated over. Therefore, this module only covers the code translation and does not include ingestion of SAS data files in the Lakehouse. Databricks <a href="https://docs.databricks.com/en/ingestion/add-data/upload-data.html" target="_blank">file upload</a> utility allows you to use the UI to create a Delta table by importing small CSV, TSV, JSON, Avro, Parquet, or text files from your local machine.
+-- MAGIC
+-- MAGIC #### Prerequisites
+-- MAGIC * Understanding of Databricks Lakehouse platform and Delta Lake
+-- MAGIC * Beginner experience using SQL to query data from enterprise data stores. Review Data Analysis With Databricks SQL course on Databricks Academy
+-- MAGIC * Beginner programming experience with Python. Review Just Enough Python for Apache Spark course on Databricks Academy 
+-- MAGIC
+-- MAGIC
+-- MAGIC #### Technical Considerations
+-- MAGIC * Use a single-node cluster to try out hands-on. This course runs on DBR 14.3+
+-- MAGIC * This course works on Databricks Community Edition
+-- MAGIC * Create table access is not required as we create temporary views throughout this course
+-- MAGIC
+-- MAGIC
