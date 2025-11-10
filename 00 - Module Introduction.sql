@@ -40,3 +40,7 @@
 -- MAGIC * Create table access is not required as we create temporary views throughout this course
 -- MAGIC
 -- MAGIC
+
+-- COMMAND ----------
+
+1+1
